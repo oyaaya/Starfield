@@ -2,7 +2,7 @@ Particle [] bro;
 void setup()
 {
 	size(500,500);
-	bro = new Particle[1200];
+	bro = new Particle[800];
 	for (int i = 0; i<bro.length; i++) {
 		bro[i] = new NormalParticle();
 		if (i%125==0) {
